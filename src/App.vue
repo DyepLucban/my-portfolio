@@ -39,6 +39,7 @@ export default {
 <style scoped>
   #app {
     background-image: url('./assets/images/laptop.jpg');
+    background-attachment: fixed;
     left: 0;
     right: 0;
     top: 0;
