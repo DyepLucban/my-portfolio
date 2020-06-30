@@ -24,7 +24,7 @@
                     <b-form-group label="Your Message:" label-for="input-3">
                         <b-textarea size="lg"></b-textarea>
                     </b-form-group>
-                    <b-button size="lg" type="submit" variant="primary">Submit</b-button>                
+                    <b-button size="lg" type="submit" variant="info">Submit</b-button>                
                 </b-col>
             </b-row>
         </b-form>                    

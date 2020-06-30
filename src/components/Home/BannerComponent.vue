@@ -8,7 +8,7 @@
             from Valenzuela
         </h4>
         <!-- <router-link to="/about">Lets get started!</router-link> -->
-        <b-button to="/about" size="md" type="submit" variant="dark">Let's get started</b-button>                
+        <b-button to="/about" size="md" type="submit" variant="outline-dark">Get started</b-button>                
     </div>
 </template>
 

@@ -7,7 +7,7 @@
             </b-col>
             <br>
             <b-col lg="4" cols="12" class="text-center pb-4">
-                <b-img fluid src="https://picsum.photos/600/300/?image=25"></b-img>
+                <b-img fluid :src=image.sample></b-img>
             </b-col>
             <b-col md="8" cols="12">
                 <h3 style="color:teal;">Back-End Developer</h3>
@@ -44,7 +44,11 @@ export default {
     components: {},
 
     data() {
-        return{}
+        return{
+            image: {
+                sample: require('@/assets/images/picture-grayscale.jpeg')
+            }
+        }
     },
 }
 </script>
