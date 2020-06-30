@@ -38,8 +38,9 @@ export default {
 
 <style scoped>
   #app {
-    background-image: url('./assets/images/laptop-updated-2.png');
+    background-image: url('./assets/images/laptop-new.png');
     background-attachment: fixed;
+    background-size: cover;
     left: 0;
     right: 0;
     top: 0;

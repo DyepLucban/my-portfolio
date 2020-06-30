@@ -2,7 +2,9 @@
   <section id="footer">
     <b-container class="footer" fluid>
         <b-row id="footer-box" class="py-3">
+          <p>
             © Copyright 2020 | Designed By: Me
+          </p>
         </b-row>
     </b-container>
   </section>
