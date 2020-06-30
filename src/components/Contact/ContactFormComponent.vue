@@ -12,19 +12,22 @@
                     <b-form-group label="Your Name:" label-for="input-2">
                         <b-form-input autocomplete="off" size="lg" id="input-2" required placeholder="Enter name"></b-form-input>
                     </b-form-group>
-                </b-col>                            
+                </b-col>
+
+                <b-col lg="12">
+                    <b-form-group label="Subject" label-for="input-2">
+                        <b-form-input autocomplete="off" size="lg" id="input-2" required placeholder="Enter Subject"></b-form-input>
+                    </b-form-group>
+                </b-col>
+
+                <b-col>
+                    <b-form-group label="Your Message:" label-for="input-3">
+                        <b-textarea size="lg"></b-textarea>
+                    </b-form-group>
+                    <b-button size="lg" type="submit" variant="primary">Submit</b-button>                
+                </b-col>
             </b-row>
-
-            <b-form-group label="Subject" label-for="input-2">
-                <b-form-input autocomplete="off" size="lg" id="input-2" required placeholder="Enter Subject"></b-form-input>
-            </b-form-group>
-
-            <b-form-group label="Your Message:" label-for="input-3">
-                <b-textarea size="lg"></b-textarea>
-            </b-form-group>
-
-            <b-button size="lg" type="submit" variant="primary">Submit</b-button>
-            </b-form>                    
+        </b-form>                    
     </b-card> 
 </template>
 

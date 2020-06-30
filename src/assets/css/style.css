@@ -83,7 +83,11 @@
 
 /* CONTACT SECTION CSS */
 #contact {
-    height: 94vh;
+    height: 100%;
+}
+
+#contact-holder p {
+    color: white;
 }
 /* END OF CONTACT SECTION CSS */
 

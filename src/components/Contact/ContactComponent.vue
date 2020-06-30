@@ -5,7 +5,14 @@
                 <h5 style="color:gray;">CONTACT <span style="color:teal;">{ }</span></h5>
                 <h1 class="mb-3" style="color:white;">CONTACT ME</h1>
             </b-col>
-        </b-row>  
+        </b-row>
+        <b-row>
+            <b-col>
+                <h3 style="color:teal;">Let's Talk</h3>
+                <p>Interested in working together or talk about a project?</p>
+            </b-col>
+        </b-row>           
+        <br>
         <b-row>
             <b-col class="mb-4" lg="4">
                 <b-card bg-variant="dark" text-variant="white">
