@@ -1,9 +1,9 @@
 <template>
   <section id="footer">
     <b-container class="footer" fluid>
-        <b-row id="footer-box" class="py-3">
-          <p>
-            © Copyright 2020 | Designed By: Me
+        <b-row id="footer-box" class="py-3 justify-content-center">
+          <p style="color:white;">
+            © Copyright 2020 | Developed By: <span style="color:teal;"><b>Me</b></span>
           </p>
         </b-row>
     </b-container>
