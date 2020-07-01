@@ -3,8 +3,8 @@ import axios from 'axios'
 
 export default {
 
-    async getAllBlogs() {
-        // return await axios.get( endpoints.blog.get_all_blogs )
+    async sendNewEmail(params) {
+        return await axios.post( endpoints.email.send_email, params)
     },
 
 }

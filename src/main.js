@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import VueTimeline from "@growthbunker/vuetimeline"
 import { BootstrapVue } from 'bootstrap-vue'
+import VueSweetalert2 from 'vue-sweetalert2'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faDatabase, faMapMarkerAlt, faEnvelope, faMobileAlt, faShareAlt } from '@fortawesome/free-solid-svg-icons'
 import { 
@@ -25,6 +26,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(BootstrapVue)
 Vue.use(VueTimeline)
+Vue.use(VueSweetalert2)
 
 Vue.config.productionTip = false
 
