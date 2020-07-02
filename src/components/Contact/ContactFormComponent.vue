@@ -28,7 +28,18 @@
                         <b-textarea v-model="data.message" size="lg" :state="this.error.message.state"></b-textarea>
                         <b-form-invalid-feedback id="message-feedback">{{ this.error.message.message }}</b-form-invalid-feedback>                        
                     </b-form-group>
-                    <b-button size="lg" variant="info" @click="sendEmail">Submit</b-button>   
+                    <div v-if="sending == false">
+                        <b-button size="lg" variant="info" @click="sendEmail">
+                            Submit 
+                        </b-button>
+                    </div>
+                    <div v-else>
+                        <b-button size="lg" variant="info" disabled>
+                            Sending ... 
+                            <b-spinner lg></b-spinner>
+                        </b-button>
+                    </div>
+                   
                 </b-col>
             </b-row>
         </b-form>                    
@@ -71,6 +82,7 @@ export default {
             },                                    
         },
         state: null,
+        sending: false
     }),
 
 
@@ -78,6 +90,7 @@ export default {
         ...mapActions('contact', ['sendNewEmail']),
 
         async sendEmail() {
+            this.sending = true
             let res = await this.sendNewEmail(this.data);
 
             if(res.status == 200) {
@@ -87,6 +100,7 @@ export default {
                 this.error.subject.state = null;
                 this.error.message.state = null;
                 this.$swal(res.data.message);
+                this.sending = false
             } else if (res.code == 422) {
                 this.error.email.message = (res.message.email) ? res.message.email.toString() : ''
                 this.error.email.state = (res.message.email) ? false : true
@@ -96,13 +110,15 @@ export default {
                 this.error.subject.state = (res.message.subject) ? false : true
                 this.error.message.message = (res.message.message) ? res.message.message.toString() : ''
                 this.error.message.state = (res.message.message) ? false : true
+                this.sending = false
             } else {
                 this.$swal(res.message);
                 this.data = ''
                 this.error.email.state = null;
                 this.error.name.state = null;
                 this.error.subject.state = null;
-                this.error.message.state = null;                
+                this.error.message.state = null;      
+                this.sending = false
             }
         }
     }
