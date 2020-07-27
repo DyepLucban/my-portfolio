@@ -101,6 +101,7 @@ export default {
                 this.error.message.state = null;
                 this.$swal(res.data.message);
                 this.sending = false
+                this.data = {}
             } else if (res.code == 422) {
                 this.error.email.message = (res.message.email) ? res.message.email.toString() : ''
                 this.error.email.state = (res.message.email) ? false : true
@@ -119,6 +120,7 @@ export default {
                 this.error.subject.state = null;
                 this.error.message.state = null;      
                 this.sending = false
+                this.data = {}
             }
         }
     }
