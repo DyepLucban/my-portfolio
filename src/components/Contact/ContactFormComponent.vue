@@ -94,7 +94,6 @@ export default {
             let res = await this.sendNewEmail(this.data);
 
             if(res.status == 200) {
-                this.data = ''
                 this.error.email.state = null;
                 this.error.name.state = null;
                 this.error.subject.state = null;
@@ -114,7 +113,6 @@ export default {
                 this.sending = false
             } else {
                 this.$swal(res.message);
-                this.data = ''
                 this.error.email.state = null;
                 this.error.name.state = null;
                 this.error.subject.state = null;
