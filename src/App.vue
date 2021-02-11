@@ -38,7 +38,7 @@ export default {
 
 <style scoped>
   #app {
-    background-image: url('./assets/images/laptop-revise-3rd.png');
+    background-image: url('./assets/images/laptop-revise-3rd-min.png');
     background-attachment: fixed;
     background-size: cover;
     left: 0;

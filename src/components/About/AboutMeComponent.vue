@@ -46,7 +46,7 @@ export default {
     data() {
         return{
             image: {
-                sample: require('@/assets/images/picture-grayscale.jpeg')
+                sample: require('@/assets/images/picture-grayscale-min.jpeg')
             }
         }
     },

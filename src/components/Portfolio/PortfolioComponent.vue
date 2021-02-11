@@ -40,7 +40,7 @@ export default {
                     title: 'Library System',
                     description: 'This system allows the user to borrow books.',
                     url: 'https://lucban-library-system.herokuapp.com/',
-                    image: require('@/assets/images/library_system.png'),
+                    image: require('@/assets/images/library_system-min.png'),
                     language_used: [
                         { name: 'Laravel' },
                         { name: 'Vue.js' },
@@ -51,7 +51,7 @@ export default {
                     title: 'Project 2',
                     description: 'Still under recoding',
                     url: '#',
-                    image: require('@/assets/images/under_construction.png'),                    
+                    image: require('@/assets/images/under_construction-min.png'),                    
                     language_used: [
                         {},
                     ],
@@ -60,7 +60,7 @@ export default {
                     title: 'Project 3',
                     description: 'Still under recoding',
                     url: '#',
-                    image: require('@/assets/images/under_construction.png'),                    
+                    image: require('@/assets/images/under_construction-min.png'),                    
                     language_used: [
                         {},
                     ],
@@ -70,7 +70,7 @@ export default {
                     title: 'Project 4',
                     description: 'Still under recoding',
                     url: '#',
-                    image: require('@/assets/images/under_construction.png'),                    
+                    image: require('@/assets/images/under_construction-min.png'),                    
                     language_used: [
                         {},
                     ],
