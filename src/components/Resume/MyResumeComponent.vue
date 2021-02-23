@@ -76,9 +76,21 @@ export default {
                 {
                     date: "2020-04-06",
                     title: "WTECH SOLUTIONS",
-                    description: 'My latest former company, where I am focused on doing the back-end. This is where I realized the I want to focus on being a Back-End Developer. We have been handling online casino games. I\'ve completed 3 successful projects with this company.',
+                    description: 'My main task was focused on doing the back-end. This is where I realized the I want to focus on being a Back-End Developer. We have been handling online casino games. I\'ve completed 3 successful projects with this company.',
                     category: "Jr. Back-end Developer",
-                },                                                
+                },
+                {
+                    date: "2020-08-11",
+                    title: "Fligno Software Philippines Inc.",
+                    description: 'Multi-tasked across multiple functions and roles to generate project results and meet deadlines and organizational expectations. Collaborated with other developers, representing web team to establish project goals, projections and milestones.',
+                    category: "Associate Web Developer",
+                },
+                {
+                    date: "2020-10-16",
+                    title: "TWALA",
+                    description: 'Integrate elements and data provided by the front end developer to store or retrieve. Handled, integrate and maintain billing service and payment method (Stripe)',
+                    category: "Backend Developer (Part-time)",
+                },                                                                             
             ],
         }
     }

@@ -1,4 +1,9 @@
 /* MISC CSS */
+body {
+    font-family: 'Squada One', cursive;
+    letter-spacing: 2px;
+}
+
 .fade-enter, .fade-leave-to {
     opacity: 0;
     transform: translateY(2em);
@@ -66,8 +71,9 @@
     color: teal;
 }
 
-#about-holder p {
+#about-holder h5 {
     color: white;
+    margin-bottom: 35px;
 }
 /* END OF ABOUT SECTION CSS */
 

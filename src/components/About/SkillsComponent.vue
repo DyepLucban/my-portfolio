@@ -76,23 +76,41 @@ export default {
                     color: '#563D7C',
                 },                  
                 {
-                    name: 'Vue',
+                    name: 'Vue.js',
                     prefix: 'fab',
                     icon: 'vuejs',
                     color: '#41B883',
                 },
                 {
-                    name: 'MYSql',
+                    name: 'Adonis.js',
+                    prefix: 'fab',
+                    icon: 'node-js',
+                    color: '#220052',
+                },                
+                {
+                    name: 'MySQL',
                     prefix: 'fas',
                     icon: 'database',
                     color: '#005E86',
-                },                
+                },
                 {
-                    name: 'GIT',
+                    name: 'PostgreSQL',
+                    prefix: 'fas',
+                    icon: 'database',
+                    color: '#005E86',
+                },                              
+                {
+                    name: 'Git',
                     prefix: 'fab',
-                    icon: 'git',
+                    icon: 'github',
                     color: '#3B2C00',
-                },                
+                },
+                {
+                    name: 'Docker',
+                    prefix: 'fab',
+                    icon: 'docker',
+                    color: '#37A2F1',
+                },                              
             ],
         }
     }
