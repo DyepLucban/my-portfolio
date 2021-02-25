@@ -9,7 +9,7 @@
         <b-row>
             <b-col>
                 <h3 style="color:teal;">Let's Talk</h3>
-                <p>Interested in working together or talk about a project?</p>
+                <h5>Interested in working together or talk about a project?</h5>
             </b-col>
         </b-row>           
         <br>

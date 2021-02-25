@@ -58,7 +58,7 @@ export default {
             works: [
                 {
                     title: 'Library System',
-                    description: 'Administrator will able to see the list of both available and borrowed books, history who borrowed the books with their due dates. While the students will be able to see the available books to borrow',
+                    description: 'The administrator will able to see the list of both available and borrowed books. Also, the history of who borrowed the books with their due dates. While the students will be able to see the available books to borrow',
                     url: 'https://lucban-library-system.herokuapp.com/',
                     image: require('@/assets/images/library_system-min.png'),
                     language_used: [
