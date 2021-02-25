@@ -101,25 +101,17 @@ export default {
                 this.$swal(res.data.message);
                 this.sending = false
                 this.data = {}
-            } else if (res.code == 422) {
-                this.error.email.message = (res.message.email) ? res.message.email.toString() : ''
-                this.error.email.state = (res.message.email) ? false : true
-                this.error.name.message = (res.message.name) ? res.message.name.toString() : ''
-                this.error.name.state = (res.message.name) ? false : true
-                this.error.subject.message = (res.message.subject) ? res.message.subject.toString() : ''
-                this.error.subject.state = (res.message.subject) ? false : true
-                this.error.message.message = (res.message.message) ? res.message.message.toString() : ''
-                this.error.message.state = (res.message.message) ? false : true
-                this.sending = false
-            } else {
-                this.$swal(res.message);
-                this.error.email.state = null;
-                this.error.name.state = null;
-                this.error.subject.state = null;
-                this.error.message.state = null;      
-                this.sending = false
-                this.data = {}
             }
+
+            this.error.email.message = (res.message.email) ? res.message.email.toString() : ''
+            this.error.email.state = (res.message.email) ? false : true
+            this.error.name.message = (res.message.name) ? res.message.name.toString() : ''
+            this.error.name.state = (res.message.name) ? false : true
+            this.error.subject.message = (res.message.subject) ? res.message.subject.toString() : ''
+            this.error.subject.state = (res.message.subject) ? false : true
+            this.error.message.message = (res.message.message) ? res.message.message.toString() : ''
+            this.error.message.state = (res.message.message) ? false : true
+            this.sending = false
         }
     }
     

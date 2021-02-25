@@ -63,7 +63,8 @@ body {
 #about-list-info ul li{
     padding-bottom: 10px;
     font-size: large;
-    color: white;
+    color: #e1e1e1;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #about-list-info ul li span{
@@ -72,9 +73,14 @@ body {
 }
 
 #about-holder h5 {
-    color: white;
+    color: #e1e1e1;
     margin-bottom: 35px;
 }
+
+#about-sub-header {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
 /* END OF ABOUT SECTION CSS */
 
 /* RESUME SECTION CSS */

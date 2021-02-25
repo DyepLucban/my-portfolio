@@ -11,14 +11,13 @@
             </b-col>
             <b-col md="8" cols="12">
                 <h3 style="color:teal;">Backend Developer</h3>
-                <h5>Driven Web Developer well versed in team collaboration to formulate and conceptualize corporate web presence. Specialty embracing challenging projects requiring detailed coding changes, search engine-related considerations and security. Integrates knowledge of visual arts to develop functional, appealing, custom-made web products and services.</h5>
+                <h5 id="about-sub-header">Driven Web Developer well versed in team collaboration to formulate and conceptualize corporate web presence. Specialty embracing challenging projects requiring detailed coding changes, search engine-related considerations and security. Integrates knowledge of visual arts to develop functional, appealing, custom-made web products and services.</h5>
                 <b-row>
                     <b-col md="6" xs="12" id="about-list-info">
                         <ul>
                             <li> <span>{ }</span> <b>Birthday:</b> Sept 15, 1990 </li>
-                            <li> <span>{ }</span> <b>Phone:</b> 0923-416-0404 </li>
                             <li> <span>{ }</span> <b>City:</b> Valenzuela City </li>
-                            <li> <span>{ }</span> <b>Age:</b> 30 </li>
+                            <li> <span>{ }</span> <b>Phone:</b> 0923-416-0404 </li>
                         </ul>
                     </b-col>
                     <b-col md="6" xs="12" id="about-list-info">
