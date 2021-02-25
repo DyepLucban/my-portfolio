@@ -89,13 +89,35 @@ body {
 
 /* PORTFOLIO SECTION CSS */
 #portfolio {
-    height: 100%;
+    height: auto;
+}
+
+.portfolio-text {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#portfolio-header-brace {
+    color: teal;
+}
+
+#portfolio-badge {
+    color: white;
+    padding: 8px 20px 8px 20px;
+}
+
+.project-view-btn, #portfolio-badge {
+    background-color: teal;
+    color: white;
+}
+
+.project-view-btn:hover {
+    color: #e1e1e1;
 }
 /* END OF PORTFOLIO SECTION CSS */
 
 /* CONTACT SECTION CSS */
 #contact {
-    height: 100%;
+    height: auto;
 }
 
 #contact-holder p {
@@ -112,6 +134,8 @@ body {
 
 .footer {
     text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
 }
 /* END OF FOOTER SECTION CSS */
 
