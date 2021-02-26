@@ -81,6 +81,11 @@ body {
     font-family: 'Archivo Narrow', sans-serif;
 }
 
+.list-label {
+    color: #e1e1e1 !important;
+    font-family: 'Squada One', cursive;
+}
+
 /* END OF ABOUT SECTION CSS */
 
 /* RESUME SECTION CSS */
@@ -101,13 +106,13 @@ body {
 }
 
 #portfolio-badge {
-    color: white;
+    color: #e1e1e1;;
     padding: 8px 20px 8px 20px;
 }
 
 .project-view-btn, #portfolio-badge {
     background-color: teal;
-    color: white;
+    color: #e1e1e1;;
 }
 
 .project-view-btn:hover {
@@ -120,8 +125,16 @@ body {
     height: auto;
 }
 
-#contact-holder h5 {
-    color: white;
+#contact-holder h4, #contact-subheader {
+    color: #e1e1e1;;
+}
+
+#contact-subheader, #contact-card-content {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.contact-media-icons {
+    color: teal;
 }
 /* END OF CONTACT SECTION CSS */
 

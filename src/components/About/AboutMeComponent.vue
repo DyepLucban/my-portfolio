@@ -15,16 +15,16 @@
                 <b-row>
                     <b-col md="6" xs="12" id="about-list-info">
                         <ul>
-                            <li> <span>{ }</span> <b>Birthday:</b> Sept 15, 1990 </li>
-                            <li> <span>{ }</span> <b>City:</b> Valenzuela City </li>
-                            <li> <span>{ }</span> <b>Phone:</b> 0923-416-0404 </li>
+                            <li> <span>{ }</span> <span class="list-label">Birthday:</span> Sept 15, 1990 </li>
+                            <li> <span>{ }</span> <span class="list-label">City:</span> Valenzuela City </li>
+                            <li> <span>{ }</span> <span class="list-label">Years of exp:</span> 4 Years </li>
                         </ul>
                     </b-col>
                     <b-col md="6" xs="12" id="about-list-info">
                         <ul>
-                            <li> <span>{ }</span> <b>Degree:</b> Vocational </li>
-                            <li> <span>{ }</span> <b>Email:</b> lucbanjep@gmail.com </li>
-                            <li> <span>{ }</span> <b>Freelance:</b> Available </li>
+                            <li> <span>{ }</span> <span class="list-label">Degree:</span> Vocational </li>
+                            <li> <span>{ }</span> <span class="list-label">Email:</span> lucbanjep@gmail.com </li>
+                            <li> <span>{ }</span> <span class="list-label">Freelance:</span> Available </li>
                         </ul>
                     </b-col>                            
                 </b-row>
