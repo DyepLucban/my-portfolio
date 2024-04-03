@@ -3,7 +3,7 @@
         <h1 style="color:#A9C7DF;">Jeffrey M. Lucban</h1>
         <h4 style="color:gray;">A passionate
             <span style="color:teal;"><b>{</b></span>
-            <span style="color:teal"> Back-End Developer </span>
+            <span style="color:teal"> Full Stack Developer </span>
             <span style="color:teal;"><b>}</b></span>
             from Pasig City
         </h4>

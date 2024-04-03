@@ -1,12 +1,12 @@
 <template>
-    <section id="resume" class="py-5">
+    <section id="background" class="py-5">
         <br>
         <MyResume/>
     </section>
 </template>
 
 <script>
-import MyResume from '@/components/Resume/MyResumeComponent.vue'
+import MyResume from '@/components/Background/BackgroundComponent.vue'
 
 export default {
     name: 'Resume',

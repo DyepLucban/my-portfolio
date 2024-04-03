@@ -46,7 +46,7 @@
                             <a href="https://github.com/DyepLucban" class="mr-3">
                                 <font-awesome-icon :icon="['fab', 'github-square']" size="lg" class="contact-media-icons"/>
                             </a>
-                            <a href="https://www.linkedin.com/in/jeffrey-lucban-376ba4122/" class="mr-3">
+                            <a href="www.linkedin.com/in/jeffrey-lucban" class="mr-3">
                                 <font-awesome-icon :icon="['fab', 'linkedin']" size="lg" class="contact-media-icons"/>
                             </a>                            
                         </h4>

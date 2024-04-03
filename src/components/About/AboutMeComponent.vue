@@ -3,28 +3,28 @@
         <b-row>
             <b-col cols="12">
                 <h5 style="color:gray;">ABOUT <span style="color:teal;">{ }</span></h5>
-                <h1 class="mb-3" style="color:white;">LEARN MORE ABOUT ME</h1>
+                <h1 class="mb-3" style="color:white;">DISCOVER MORE</h1>
             </b-col>
             <br>
             <b-col lg="4" cols="12" class="text-center pb-4">
                 <b-img fluid :src=image.sample></b-img>
             </b-col>
             <b-col md="8" cols="12">
-                <h3 style="color:teal;">Backend Developer</h3>
-                <h5 id="about-sub-header">Driven Web Developer well versed in team collaboration to formulate and conceptualize corporate web presence. Specialty embracing challenging projects requiring detailed coding changes, search engine-related considerations and security. Integrates knowledge of visual arts to develop functional, appealing, custom-made web products and services.</h5>
+                <h3 style="color:teal;">Full Stack Developer</h3>
+                <h5 id="about-sub-header">Driven Full Stack Developer well versed in team collaboration to formulate and conceptualize corporate web presence. Specialty embracing challenging projects requiring detailed coding changes, search engine-related considerations and security. Integrates knowledge of visual arts to develop functional, appealing, custom-made web products and services.</h5>
                 <b-row>
                     <b-col md="6" xs="12" id="about-list-info">
                         <ul>
-                            <!-- <li> <span>{ }</span> <span class="list-label">Birthday:</span> Sept 15, 1990 </li> -->
+                            <li> <span>{ }</span> <span class="list-label">Email:</span> lucbanjep@gmail.com </li>
                             <li> <span>{ }</span> <span class="list-label">City:</span> Pasig City </li>
                             <li> <span>{ }</span> <span class="list-label">Years of exp:</span> 7 Years </li>
                         </ul>
                     </b-col>
                     <b-col md="6" xs="12" id="about-list-info">
                         <ul>
+                            <li> <span>{ }</span> <span class="list-label">Graduated at:</span> ACLC Caloocan </li>
                             <li> <span>{ }</span> <span class="list-label">Degree:</span> Vocational </li>
-                            <li> <span>{ }</span> <span class="list-label">Email:</span> lucbanjep@gmail.com </li>
-                            <li> <span>{ }</span> <span class="list-label">Freelance:</span> Available </li>
+                            <li> <span>{ }</span> <span class="list-label">Course:</span> Diploma in Web Application </li>
                         </ul>
                     </b-col>                            
                 </b-row>

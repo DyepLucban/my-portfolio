@@ -42,8 +42,8 @@ export default {
                     url: '/about',
                 },
                 {
-                    text: 'Resume',
-                    url: '/resume',
+                    text: 'Background',
+                    url: '/background',
                 },
                 {
                     text: 'Portfolio',

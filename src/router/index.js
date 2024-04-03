@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import Resume from '../views/Resume.vue'
+import Background from '../views/Background.vue'
 import Portfolio from '../views/Portfolio.vue'
 import Contact from '../views/Contact.vue'
 
@@ -20,9 +20,9 @@ Vue.use(VueRouter)
     component: About
   },
   {
-    path: '/resume',
-    name: 'Resume',
-    component: Resume
+    path: '/background',
+    name: 'Background',
+    component: Background
   },
   {
     path: '/portfolio',
