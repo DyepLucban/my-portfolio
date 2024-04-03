@@ -13,7 +13,7 @@ body {
     transition: all .3s ease;
 }
 
-#about-holder, #resume-holder, #contact-holder, #portfolio-holder {
+#about-holder, #background-holder, #contact-holder, #portfolio-holder {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -88,9 +88,9 @@ body {
 
 /* END OF ABOUT SECTION CSS */
 
-/* RESUME SECTION CSS */
-    /* RESUME SECTION HERE */
-/* END OF RESUME SECTION CSS */
+/* background SECTION CSS */
+    /* background SECTION HERE */
+/* END OF background SECTION CSS */
 
 /* PORTFOLIO SECTION CSS */
 #portfolio {
