@@ -5,7 +5,7 @@
             <span style="color:teal;"><b>{</b></span>
             <span style="color:teal"> Back-End Developer </span>
             <span style="color:teal;"><b>}</b></span>
-            from Valenzuela
+            from Pasig City
         </h4>
         <!-- <router-link to="/about">Lets get started!</router-link> -->
         <b-button to="/about" size="md" type="submit" variant="outline-dark">Get started</b-button>                
