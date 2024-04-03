@@ -80,10 +80,10 @@ export default {
                     category: "Jr. Back-end Developer",
                 },
                 {
-                    date: "2020-08-11",
-                    title: "Fligno Software Philippines Inc.",
-                    description: 'Multi-tasked across multiple functions and roles to generate project results and meet deadlines and organizational expectations. Collaborated with other developers, representing web team to establish project goals, projections and milestones.',
-                    category: "Associate Web Developer",
+                    date: "2021-06-21",
+                    title: "POLKER",
+                    description: 'Integrate elements and data provided by the front end developer to store or retrieve. Handled, integrate and maintain billing service and payment method (Stripe)',
+                    category: "Backend Developer",
                 },
                 {
                     date: "2020-10-16",

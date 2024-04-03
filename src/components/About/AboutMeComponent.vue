@@ -16,8 +16,8 @@
                     <b-col md="6" xs="12" id="about-list-info">
                         <ul>
                             <li> <span>{ }</span> <span class="list-label">Birthday:</span> Sept 15, 1990 </li>
-                            <li> <span>{ }</span> <span class="list-label">City:</span> Valenzuela City </li>
-                            <li> <span>{ }</span> <span class="list-label">Years of exp:</span> 4 Years </li>
+                            <li> <span>{ }</span> <span class="list-label">City:</span> Pasig City </li>
+                            <li> <span>{ }</span> <span class="list-label">Years of exp:</span> 7 Years </li>
                         </ul>
                     </b-col>
                     <b-col md="6" xs="12" id="about-list-info">
