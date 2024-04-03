@@ -84,18 +84,7 @@ export default {
                     language_used: [
                         {},
                     ],
-
-                },
-                {
-                    title: 'Project 4',
-                    description: 'Still under recoding',
-                    url: '#',
-                    image: require('@/assets/images/under_construction-min.png'),                    
-                    language_used: [
-                        {},
-                    ],
-
-                },                                                                               
+                },                                                                             
             ],
         }
     }
