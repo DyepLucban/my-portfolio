@@ -52,6 +52,12 @@ export default {
                     color: '#EED818',
                 },
                 {
+                    name: 'Bootstrap',
+                    prefix: 'fab',
+                    icon: 'bootstrap',
+                    color: '#563D7C',
+                },
+                {
                     name: 'PHP',
                     prefix: 'fab',
                     icon: 'php',
@@ -68,13 +74,13 @@ export default {
                     prefix: 'fab',
                     icon: 'node-js',
                     color: '#659B60',
-                },
-                {
-                    name: 'Bootstrap',
-                    prefix: 'fab',
-                    icon: 'bootstrap',
-                    color: '#563D7C',
                 },                  
+                {
+                    name: 'Adonis.js',
+                    prefix: 'fab',
+                    icon: 'node-js',
+                    color: '#220052',
+                },
                 {
                     name: 'Vue.js',
                     prefix: 'fab',
@@ -82,10 +88,10 @@ export default {
                     color: '#41B883',
                 },
                 {
-                    name: 'Adonis.js',
+                    name: 'React',
                     prefix: 'fab',
-                    icon: 'node-js',
-                    color: '#220052',
+                    icon: 'react',
+                    color: '#087EA4',
                 },                
                 {
                     name: 'MySQL',
