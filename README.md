@@ -1,4 +1,4 @@
-# bootstrap-portfolio-fe
+# Vue Bootstrap Portfolio
 
 ## Project setup
 ```
