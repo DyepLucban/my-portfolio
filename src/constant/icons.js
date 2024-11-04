@@ -15,6 +15,7 @@ import {
     faGithub,
     faDocker,
     faReact,
+    faUnity,
 } from '@fortawesome/free-brands-svg-icons'
 
 let icons = {
@@ -36,7 +37,8 @@ let icons = {
     linkedin: faLinkedin,
     github: faGithubSquare ,
     docker: faDocker,
-    react: faReact
+    react: faReact,
+    unity: faUnity,
 }
 
 export default icons
