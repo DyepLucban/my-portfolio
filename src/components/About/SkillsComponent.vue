@@ -116,7 +116,13 @@ export default {
                     prefix: 'fab',
                     icon: 'docker',
                     color: '#37A2F1',
-                },                              
+                },
+                {
+                    name: 'Unity',
+                    prefix: 'fab',
+                    icon: 'unity',
+                    color: '#000000',
+                },
             ],
         }
     }
