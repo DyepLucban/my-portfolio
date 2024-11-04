@@ -15,5 +15,10 @@ npm run serve
 npm run build
 ```
 
+### Run to local machine
+```
+npm run serve
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
