@@ -68,12 +68,13 @@ export default {
                     ],
                 },
                 {
-                    title: 'Project 2',
-                    description: 'Still under recoding',
-                    url: '#',
-                    image: require('@/assets/images/under_construction-min.png'),                    
+                    title: 'Project Paw',
+                    description: 'A mix of Metroidvania and Souls-like genres. As a huge fan of the Soulsborne series, I was inspired to base my game on this style',
+                    url: 'https://globoyfury.itch.io/project-paw',
+                    image: require('@/assets/images/ProjectPaw - Splash.png'),                    
                     language_used: [
-                        {},
+                        { name: 'C#'},
+                        { name: 'Unity'}
                     ],
                 },
                 {
