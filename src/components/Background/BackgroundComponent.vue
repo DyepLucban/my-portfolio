@@ -35,7 +35,7 @@ export default {
                     date: "2020-10-16",
                     title: "TWALA",
                     description: "The role involved integrating front-end data into database operations, \n managing billing services with Stripe, and developing an admin portal for user monitoring and document tracking. Document processing was supported using Pdftron, while server-side logic and RESTful APIs were built using Node.js. The engineer conducted thorough testing, including unit tests and functional testing, to ensure application reliability. Collaboration with cross-functional teams ensured smooth integration of front-end and back-end code. Additionally, the engineer played a key role in debugging and resolving issues to enhance overall web application stability, and contributed to code reviews and refactoring sessions to improve code structure and readability.",
-                    category: "Backend Developer (Part-time)",
+                    category: "Senior Backend Developer",
                 },
                 {
                     date: "2021-06-21",
