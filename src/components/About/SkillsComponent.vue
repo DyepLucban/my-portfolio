@@ -64,6 +64,12 @@ export default {
                     color: '#4D588F',
                 },
                 {
+                    name: 'Python',
+                    prefix: 'fab',
+                    icon: 'python',
+                    color: '#EED818',
+                },                
+                {
                     name: 'Laravel',
                     prefix: 'fab',
                     icon: 'laravel',
